@@ -48,6 +48,14 @@ img{
         }
 }
 
+@media only screen
+    and (max-width:900px){
+        header{background-color:#627176;
+        }img{width:calc(100%/1.4);
+            transform:translatey(1)
+        }
+}
+
     
 
 
