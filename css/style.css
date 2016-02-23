@@ -27,8 +27,8 @@ img{
     border:#3f5cea .5rem solid;
     max-width:auto;
     width:calc(100%/3.5);
-    
     transform:translatey(15%);
+    box-shadow: inset 1px 1px 5px 5px #ddd;
 }
 
 @media only screen
