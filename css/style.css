@@ -6,7 +6,7 @@ html,body{
 }
 
 header{
-    height:20rem;
+    height:50rem;
     width:100%;
     text-align:center;
     border:#919286 1rem solid;
@@ -18,7 +18,7 @@ span{
     display:block;
     height:auto;
     width:80%;
-    overflow:hidden;
+
 }
 
 img{
@@ -26,14 +26,19 @@ img{
     display:block;
     max-width:auto;
     width:calc(100%/3.5);
-    height:auto;
-    transform:translatey(20%);
+    
+    transform:translatey(15%);
 }
 
 @media only screen
     and (min-width:630px){
         header{background-color:#eee194;}
-
+        span{margin:0 auto;}
         img{width:calc(100%/2);
             transform:translatey}
+}
+
+@media only screen
+    and (min-width:720px){
+        header{background-color:#f1ecf2;}
 }
