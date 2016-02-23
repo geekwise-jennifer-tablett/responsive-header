@@ -6,15 +6,17 @@ html,body{
 }
 
 header{
+    height:20rem;
+    width:100%;
     text-align:center;
-    border:#919286 1.3rem solid;
+    border:#919286 1rem solid;
     background-color:#6a5d30;
 }
 
 span{
     margin:0 auto;
     display:block;
-    height:20rem;
+    height:auto;
     width:80%;
     overflow:hidden;
 }
@@ -22,13 +24,16 @@ span{
 img{
     margin:0 auto;
     display:block;
-    max-width:100%;
-    width:calc(100%/2);
+    max-width:auto;
+    width:calc(100%/3.5);
     height:auto;
+    transform:translatey(20%);
 }
 
 @media only screen
-    and (max-width:630px;)
-        span{background-color:#eee194;}
-        img{width:calc(100%/3.5);
-            transform:translateY}
+    and (min-width:630px){
+        header{background-color:#eee194;}
+
+        img{width:calc(100%/2);
+            transform:translatey}
+}
